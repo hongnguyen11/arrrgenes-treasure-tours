@@ -22,9 +22,13 @@ html {
   text-align: center;
 }
 
-.nav a {
+nav a {
   color: #fff;
   text-decoration: none;
+}
+
+nav a:focus {
+  outline: 3px solid green;
 }
 
 .nav a span {
@@ -34,6 +38,7 @@ html {
 .nav a:hover span,
 .nav a:focus span {
   border-bottom-color: #fff;
+  outline: 3px solid #000;
 }
 
 .banner {
@@ -49,14 +54,14 @@ html {
 
 .btn-light {
   background-color: #bea59b;
-  border-color: #bea59b;
+  border-color: #fff;
   color: #522806;
 }
 
 .btn-light:hover,
 .btn-light:focus {
   background-color: #522806;
-  border-color: #522806;
+  border-color: #fff;
 }
 
 .btn-banner {
