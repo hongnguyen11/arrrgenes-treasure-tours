@@ -1,6 +1,10 @@
 html {
-  background-color: #fff;
+  background-color: #000;
   font-family: "Libre Baskerville", serif;
+}
+
+#main {
+  background-color: #fff;
 }
 
 .masthead {
@@ -27,8 +31,12 @@ nav a {
   text-decoration: none;
 }
 
-nav a:focus {
-  outline: 3px solid green;
+a:focus {
+  outline: 3px solid #fff;
+}
+
+.nav a:focus {
+  outline: 3px solid #fff;
 }
 
 .nav a span {
@@ -44,6 +52,7 @@ nav a:focus {
 .banner {
   min-height: 16em;
   color: #fff;
+  background-color: #000;
 }
 
 .card {
